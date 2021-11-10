@@ -13,7 +13,7 @@ namespace Ariza_Talep_2
         {
             SqlConnection con = new SqlConnection("server=.; Initial Catalog = Ariza_Talep_2 ; Integrated Security=SSPI");
 
-            //SqlConnection con = new SqlConnection("Data Source = ipadresi; Network Library = DBMSSOCN; Initial Catalog = Veritanani_adi; User ID = user; Password = sifre;");
+            //SqlConnection con = new SqlConnection("Data Source = ip; Network Library = DBMSSOCN; Initial Catalog = Ariza_Talep_2; User ID = user; Password = sifre;");
             con.Open();
             return con;
         }
